@@ -1,0 +1,9 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/paulosrjr/Axolote-API.git
+[submodule "tasks"]
+	path = tasks
+	url = https://github.com/paulosrjr/Axolote-Tasks.git
+[submodule "ui"]
+	path = ui
+	url = https://github.com/paulosrjr/Axolote-UI.git

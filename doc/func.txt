@@ -1,0 +1,47 @@
+
+Dashboard
+- Estatisticas
+
+Server
+- New Server
+    - Cadastra servidor com:
+        - Nome
+        - IP
+        - Descricao
+- Datatable
+    - Exclui servidor e seus Works
+    - Altera IP, Nome ou Descrição
+
+Works
+- New Work
+    - Insere trabalho de backup com:
+        - Identificador
+        - Seleção de servidor
+        - Tipo de backup
+            - Rsyslog
+                - Inserção de usuario e senha
+                - Diretorio de origem
+                - Flags
+            - SCP
+                - Inserção de usuario e senha
+                - Diretorio de origem
+                - Flags
+            - SFTP
+                - Inserção de usuario e senha
+                - Diretorio de origem
+                - Flags
+            - FTP
+                - Inserção de usuario e senha
+                - Diretorio de origem
+            - SCRIPT
+                - Caminho local do script
+
+Backups
+- Datatable
+    - Mostra espaço livre no repositorio de backup
+    - Lista o backup e permite download
+    - Exclui backup
+
+Logs
+- Datatable por servidor
+    - Lista logs
